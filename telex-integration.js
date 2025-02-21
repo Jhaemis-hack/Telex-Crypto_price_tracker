@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const integrationJson =async (req, res) =>{
-    base_url = 'https://fzdhgsw4-3300.uks1.devtunnels.ms'
+    base_url = 'https://telex-crypto-price-tracker.vercel.app'
 
     return res.json({
         "data": {
@@ -26,7 +26,7 @@ const integrationJson =async (req, res) =>{
                 "sends formatted messages to the Telex platform",
                 "Useful to crypto traders, enthusiasts, and communities that want to stay updated on market movements without manually checking prices",
             ],
-            "author": "james kehinde jnr",
+            "author": "James Kehinde",
             "settings": [
             {
                 "label": "interval",
@@ -36,7 +36,6 @@ const integrationJson =async (req, res) =>{
             }
             ],
             "is_active": true,
-            "author": "JC CODER",
             "version": "1.0.0",
             "tick_url": `${base_url}/tick`,
             "target_url": ``
